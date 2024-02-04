@@ -1,0 +1,10 @@
+kafka:
+  addr: "localhost:9093"
+  topic: "tx.registered"
+
+postgres:
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "password"
+  dbname: "main"

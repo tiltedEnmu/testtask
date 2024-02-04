@@ -1,0 +1,13 @@
+http:
+  port: "8080"
+
+kafka:
+  addr: ":29092"
+  topic: "tx.registered"
+
+postgres:
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "password"
+  dbname: "main"
